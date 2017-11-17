@@ -140,6 +140,3 @@ module OpenTDB
     end
   end
 end
-
-s = OpenTDB::Session.new
-puts s.get(5, category: 'Animals').map(&:inspect)
