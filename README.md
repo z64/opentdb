@@ -28,3 +28,13 @@ puts session.get(5, category: 'Animals').map(&:inspect)
 ```
 
 See the source code for more documentation and API.
+
+## This repo
+
+I wrote this script for something I ended up not using. If you would like to make use of it and add your contributions back, that's great - open a PR.
+
+There are some general TODOs to get started in making this more usable:
+- [ ] Properly gemify
+- [ ] A lot of API responses have HTML entities left in them. We can use a gem to sanitize these if we wanted.
+
+Any questions, feel free to open an issue.
